@@ -2,6 +2,7 @@ import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 import { incAction, decAction } from "./redux/actions";
 function App() {
+  // eslint-disable-next-line no-lone-blocks
   {
     /* useSelector takes a parameter which is store and is use to get state retrned by the reducer function like if the type is add it will return the state with increment*/
   }
